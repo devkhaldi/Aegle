@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="links">
           <h3>Product</h3>
           <a href="#" className="link yellowLink">Log in</a>
-          <a href="#" className="link">Simulate Aegle</a>
+          <a href="#" className="link">Simulate Aegle </a>
           <a href="#" className="link">What is Aegle</a>
           <a href="#" className="link">How Aegle Works</a>
         </div>

@@ -17,6 +17,9 @@ fonts used:
 - Lato Regular, Lato Semibold;
 - Rufina Regular, Rufina Bold;
 */
+html {
+  font-size: 100%;
+}
 
 body {
   /* padding-left: 150px;
@@ -26,7 +29,7 @@ body {
 
 .homeCards {
   background: #e5e5e5;
-  padding: 0 150px;
+  padding: 0 11rem;
   padding-bottom: 6rem;
 }
 
@@ -60,7 +63,7 @@ h3 {
 p {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1rem;
   color: var(--grey);
 }
 
@@ -120,4 +123,27 @@ button {
   background: #ffffff;
   box-shadow: 0px 4px 30px 10px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
+}
+
+@media (min-width: 90em) {
+  .my-container {
+    width: 90em;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (min-width: 2048px) {
+  html {
+    font-size: 150%;
+  }
+}
+@media (min-width: 3840px) {
+  html {
+    font-size: 300%;
+  }
 }

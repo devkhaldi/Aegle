@@ -1,5 +1,5 @@
 .navbar {
-  padding: 10px 150px;
+  padding: 0.8rem 9rem;
   background: var(--blue);
   color: white;
   display: flex;
@@ -17,11 +17,61 @@
   list-style: none;
   display: flex;
 }
-.navbar .navItem {
+.navbar .navItem a {
   text-decoration: none;
   color: white;
-  margin: 0 1.2em;
+  margin: 0 1.6em;
 }
+
+.navbar .navItem img {
+  margin-left: 0.5rem;
+  transition: all 1s;
+}
+.navbar .navItem .beta {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.1rem 0.6rem;
+  margin-left: 0.5rem;
+  border-radius: 0.4rem;
+  display: inline;
+}
+
+/* Navbar dropdown */
+
+.navbar .navItems .navItem:nth-child(5) {
+  position: relative;
+}
+.navbar .navItems .navItem:nth-child(5) .dropdown {
+  display: none;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  background: white;
+  list-style: none;
+  width: 14rem;
+  border-radius: 1rem;
+  padding: 1rem 0;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.navbar .navItems .navItem:nth-child(5):hover .dropdown {
+  display: block;
+  transition: all 1s;
+}
+
+.navbar .navItems .navItem:nth-child(5) .dropdown a {
+  color: #6f6f6f;
+  line-height: 1.8rem;
+  display: inline-block;
+}
+.navbar .navItems .navItem:nth-child(5) .dropdown a:hover {
+  text-decoration: underline;
+}
+
+.navbar .navItems .navItem:nth-child(5):hover img {
+  transform: rotateZ(180deg);
+}
+
+/* Navbar Buttons */
 .navbar .navButtons {
   margin-left: auto;
 }
