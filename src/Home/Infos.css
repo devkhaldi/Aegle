@@ -1,0 +1,59 @@
+.infos {
+  margin-top: -5rem;
+  padding: 4rem 8rem;
+}
+.infos .info {
+  display: flex;
+  gap: 8rem;
+  align-items: center;
+}
+.infos .info .imgContainer {
+  flex: 1;
+}
+.infos .info .imgContainer img {
+  height: 25rem;
+}
+.infos .info .textContainer {
+  flex: 1;
+}
+.infos .info .textContainer h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+.infos .info .textContainer p {
+  margin: 1rem 0;
+  width: 70%;
+}
+
+.infos .info .textContainer a {
+  font-weight: 700;
+  border-radius: 3rem;
+  border: solid 2px var(--blue);
+  color: var(--blue);
+  text-decoration: none;
+  padding: 0.8rem 1.4rem;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.infos .info:nth-child(3) {
+  flex-direction: row-reverse;
+}
+.infos .info:nth-child(3) .textContainer {
+  text-align: right;
+}
+.infos .info:nth-child(3) .textContainer p {
+  margin: 1.5rem 0;
+  margin-left: auto;
+}
+
+.infos hr {
+  border: none;
+  width: 70%;
+  margin: 1rem 0;
+  margin-left: 15%;
+  background-color: #eee;
+  height: 3px;
+}
