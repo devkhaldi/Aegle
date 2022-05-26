@@ -10,7 +10,7 @@ const Hero = () => {
         <h1>We are fixing that.</h1>
         <div className='buttonsContainer'>
           <a href='#'>Contact us</a>
-          <a href='#'>Learn More</a>
+          <a href='#'>Learn more</a>
         </div>
       </div>
       <div className='imageContainer'>

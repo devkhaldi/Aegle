@@ -23,14 +23,14 @@ const Cards = () => {
           <h2>Lower Spend</h2>
           <p>20%+ cumulative savings over 5 years </p>
           <p>Typical first-year savings: 60-80%</p>
-          <button>Learn more</button>
+          <a href='#'>Learn more</a>
         </div>
         <div className='card'>
           <img src={cardImage2} alt='card image 2' />
           <h2>Better Coverage</h2>
           <p>No lasers or exclusions </p>
           <p>Eliminates deductibles</p>
-          <button>Learn more</button>
+          <a href='#'>Learn more</a>
         </div>
       </div>
     </section>

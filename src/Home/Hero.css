@@ -8,7 +8,10 @@
 .hero .textContainer {
   flex: 3;
   padding-top: 10rem;
-  padding-left: 150px;
+  padding-left: 12rem;
+}
+.hero .textContainer h1 {
+  font-size: 2.8rem;
 }
 .hero .textContainer h1:nth-child(2) {
   color: var(--orange);
