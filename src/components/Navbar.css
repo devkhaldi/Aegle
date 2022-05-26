@@ -1,0 +1,46 @@
+.navbar {
+  padding: 10px 150px;
+  background: var(--blue);
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.navbar .logoContainer {
+  margin-right: 4rem;
+}
+.navbar .logoContainer img {
+  height: 5rem;
+}
+
+.navbar .navItems {
+  list-style: none;
+  display: flex;
+}
+.navbar .navItem {
+  text-decoration: none;
+  color: white;
+  margin: 0 1.2em;
+}
+.navbar .navButtons {
+  margin-left: auto;
+}
+.navbar .navButtons a {
+  text-decoration: none;
+}
+
+.navbar .navButtons a:nth-child(1) {
+  background: transparent;
+  color: var(--orange);
+  margin-right: 1.5rem;
+}
+.navbar .navButtons a:nth-child(2) {
+  background: var(--orange);
+  color: white;
+  border-radius: 3.2rem;
+  padding: 0.8rem 1.8rem;
+}
+
+.navbar .mobileNavItems {
+  display: none;
+}

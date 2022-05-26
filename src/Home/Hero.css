@@ -1,0 +1,37 @@
+.hero {
+  background: var(--blue);
+  color: white;
+  padding-bottom: 8rem;
+  display: flex;
+}
+
+.hero .textContainer {
+  flex: 3;
+  padding-top: 10rem;
+  padding-left: 150px;
+}
+.hero .textContainer h1:nth-child(2) {
+  color: var(--orange);
+}
+.hero .buttonsContainer {
+  margin-top: 5.5rem;
+}
+.hero .buttonsContainer a:nth-child(1) {
+  background: var(--orange);
+  text-decoration: none;
+  color: white;
+  border-radius: 3.2rem;
+  padding: 0.8rem 2rem;
+}
+.hero .buttonsContainer a:nth-child(2) {
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem 1.8rem;
+}
+.hero .imageContainer {
+  flex: 2;
+  padding-top: 2rem;
+}
+.hero .imageContainer img {
+  max-width: 55rem;
+}
