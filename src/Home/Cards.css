@@ -20,6 +20,7 @@
   margin: 1rem auto;
   width: 70%;
   font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .cards .cardsContainer {
@@ -46,6 +47,7 @@
 }
 
 .cards .card h2 {
+  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   margin: 1rem;
   font-weight: 700;
@@ -61,4 +63,13 @@
   border-radius: 3rem;
   margin-top: 1.5rem;
   display: inline-block;
+}
+
+@media (max-width: 900px) {
+  .cards {
+    padding: 6rem 2rem !important;
+  }
+  .cards .cardsContainer {
+    flex-direction: column;
+  }
 }

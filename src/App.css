@@ -19,6 +19,7 @@ fonts used:
 */
 html {
   font-size: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -125,19 +126,33 @@ button {
   border-radius: 10px;
 }
 
-@media (min-width: 90em) {
+/* @media (min-width: 90em) {
   .my-container {
     width: 90em;
     margin: 0 auto;
   }
+} */
+
+@media (max-width: 900px) {
+  .homeCards {
+    background: #e5e5e5;
+    padding: 0 3rem;
+    padding-bottom: 6rem;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1500px) {
   html {
     font-size: 75%;
   }
 }
-@media (min-width: 2048px) {
+@media (max-width: 1200px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+/* @media (min-width: 2048px) {
   html {
     font-size: 150%;
   }
@@ -146,4 +161,4 @@ button {
   html {
     font-size: 300%;
   }
-}
+} */

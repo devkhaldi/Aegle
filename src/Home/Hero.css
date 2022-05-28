@@ -38,3 +38,18 @@
 .hero .imageContainer img {
   max-width: 55rem;
 }
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .hero .textContainer {
+    margin-top: -10rem;
+    margin-bottom: 6rem;
+    padding-left: 4rem;
+  }
+  .hero .imageContainer img {
+    max-width: 40rem;
+  }
+}

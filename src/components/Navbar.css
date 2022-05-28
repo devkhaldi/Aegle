@@ -14,13 +14,15 @@
 }
 
 .navbar .navItems {
+  width: 60%;
   list-style: none;
   display: flex;
+  justify-content: space-between;
 }
 .navbar .navItem a {
   text-decoration: none;
   color: white;
-  margin: 0 1.6em;
+  /* margin: 0 1.6em; */
 }
 
 .navbar .navItem img {
@@ -50,7 +52,7 @@
   list-style: none;
   width: 14rem;
   border-radius: 1rem;
-  padding: 1rem 0;
+  padding: 1.4rem 1rem;
   box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 .navbar .navItems .navItem:nth-child(5):hover .dropdown {
@@ -93,4 +95,17 @@
 
 .navbar .mobileNavItems {
   display: none;
+}
+
+@media (max-width: 900px) {
+  .navbar .navItems {
+    display: none;
+  }
+  .navbar .navButtons {
+    display: none;
+  }
+  .navbar .logoContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

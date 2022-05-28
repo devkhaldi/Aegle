@@ -4,6 +4,13 @@ import gotopIcon from "../Icons/arrow-up_icon.svg"
 import "./Footer.css"
 
 const Footer = () => {
+  const scrollTop = () => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    })
+  }
   return (
     <footer>
       <div className='footerContent'>
@@ -48,7 +55,12 @@ const Footer = () => {
         <span>4250 N Fairfax Dr, Ste 600, Arlington, VA 22203</span>
       </div>
 
-      <img className='gotop' src={gotopIcon} alt='gotop icon' />
+      <img
+        onClick={scrollTop}
+        className='gotop'
+        src={gotopIcon}
+        alt='gotop icon'
+      />
     </footer>
   )
 }

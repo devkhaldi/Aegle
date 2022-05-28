@@ -73,3 +73,28 @@ footer .gotop {
   top: 2rem;
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  footer {
+    padding: 2rem;
+  }
+  footer .footerIntro {
+    flex: 1;
+    padding: 2rem;
+  }
+  footer .footerIntro p {
+    width: 90%;
+  }
+  footer .footerContent {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  footer .footerContent .links {
+    margin-left: 0;
+    padding: 2rem;
+    flex: 1;
+  }
+  footer .footerContent .links h3 {
+    width: 100%;
+  }
+}
