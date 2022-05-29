@@ -4,8 +4,8 @@ import "./SimulatorHero.css"
 const SimulatorHero = () => {
   return (
     <section className='simulatorHero'>
-      <h2>Simulate how Aegle compares to traditional stop-loss</h2>
-      <h3>See how much Aegle could save</h3>
+      <h1>Simulate how Aegle compares to traditional stop-loss</h1>
+      <h2>See how much Aegle could save</h2>
     </section>
   )
 }

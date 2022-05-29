@@ -1,15 +1,23 @@
 .simulatorHero {
   background: var(--blue);
-  color: white;
+
   text-align: center;
   padding: 11rem;
-  padding-top: 4rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 25rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.2rem;
 }
 
 .simulatorHero h1 {
-  width: 30%;
+  font-size: 2.8rem;
+  width: 60%;
+  margin: auto;
+}
+.simulatorHero h2 {
+  color: white;
+  font-weight: 400;
+  font-family: "Rufina", sans-serif;
+  font-size: 1.3rem;
 }
