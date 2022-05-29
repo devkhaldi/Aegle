@@ -80,6 +80,9 @@
 .navbar .navButtons a {
   text-decoration: none;
 }
+.navbar .navItem a:hover {
+  text-decoration: underline !important;
+}
 
 .navbar .navButtons a:nth-child(1) {
   background: transparent;

@@ -26,6 +26,9 @@ footer .footerIntro a {
   margin-top: 1rem;
   display: inline-block;
 }
+footer .footerIntro a:hover {
+  text-decoration: underline;
+}
 
 /* Footer Links */
 
@@ -49,6 +52,9 @@ footer .links .link {
   color: rgba(255, 255, 255, 0.8);
   margin: 1rem 0;
   text-decoration: none;
+}
+footer .links .link:hover {
+  text-decoration: underline;
 }
 footer .links .yellowLink {
   color: #e7b65f;

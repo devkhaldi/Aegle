@@ -1,0 +1,15 @@
+.simulatorHero {
+  background: var(--blue);
+  color: white;
+  text-align: center;
+  padding: 11rem;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.simulatorHero h1 {
+  width: 30%;
+}

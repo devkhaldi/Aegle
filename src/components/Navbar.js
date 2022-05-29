@@ -2,21 +2,24 @@ import React from "react"
 import logo from "../Images/company-logo.png"
 import Navbar from "./Navbar.css"
 import arrowDown from "../Icons/arrow-down.png"
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
     <header className='navbar'>
       <div className='logoContainer'>
-        <img src={logo} alt='Logo' />
+        <Link to='/'>
+          <img src={logo} alt='Logo' />
+        </Link>
       </div>
       {/* prettier-ignore */}
       <ul className='navItems'>
         <li className='navItem'><a href="#">What is Aegle</a></li>
         <li className='navItem'><a href="#">How Aegle Works</a></li>
         <li className='navItem'><a href="#">Why Aegle Works</a></li>
-        <li className='navItem'><a href="#">Simulate Aegle 
+        <li className='navItem'><Link to='/simulate'>Simulate Aegle 
                 <div className="beta">Beta</div>
-            </a></li>
+            </Link></li>
         <li className='navItem'><a href="#">
           About Aegle  
           <img src={arrowDown} alt="Arrow down" /></a>
