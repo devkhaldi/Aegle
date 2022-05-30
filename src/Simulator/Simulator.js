@@ -9,7 +9,9 @@ const Simulator = () => {
     <React.Fragment>
       <Navbar />
       <SimulatorHero />
-      <SimulatorForm />
+      <div className='simulatorCards'>
+        <SimulatorForm />
+      </div>
     </React.Fragment>
   )
 }

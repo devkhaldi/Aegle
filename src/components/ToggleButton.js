@@ -4,10 +4,10 @@ import "./ToggleButton.css"
 const ToggleButton = () => {
   return (
     <React.Fragment>
-      <label class='switch'>
-        <input type='checkbox' />
+      <div class='switch'>
+        <input type='checkbox' checked='true' />
         <span class='slider round'></span>
-      </label>
+      </div>
     </React.Fragment>
   )
 }
