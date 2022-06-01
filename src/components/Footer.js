@@ -3,7 +3,7 @@ import companyLogo from "../Icons/footerCompanyLogo.png"
 import gotopIcon from "../Icons/arrow-up_icon.svg"
 import "./Footer.css"
 
-const Footer = () => {
+const Footer = ({ className }) => {
   const scrollTop = () => {
     window.scroll({
       top: 0,
@@ -12,7 +12,7 @@ const Footer = () => {
     })
   }
   return (
-    <footer>
+    <footer className={className}>
       <div className='footerContent'>
         <div className='footerIntro'>
           <img src={companyLogo} alt='company logo' />

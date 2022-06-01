@@ -93,13 +93,15 @@ const SimulatorForm = () => {
           <div className='permContainer'>
             <div className='formGroup'>
               <label htmlFor='type'>
-                Current Annual Stop-loss Premium (PEPM)
+                <p>Current Annual Stop-loss Premium (PEPM)</p>
                 <img src={labelicon} alt='Label Icon' />
               </label>
-              <div className='buttonsGroup'>
-                <button>Standard Market Pricing</button>
-                <button>Good Deal</button>
-                <button>Custom</button>
+              <div className='formContent'>
+                <button className='blueBtn'>Standard Market Pricing</button>
+                <div className='formContentBtns'>
+                  <button>Good Deal</button>
+                  <button>Custom</button>
+                </div>
               </div>
             </div>
             <div className='formGroup'>
@@ -107,28 +109,33 @@ const SimulatorForm = () => {
                 Yearly Premium (PEPM)
                 <img src={labelicon} alt='Label Icon' />
               </label>
-              <div className='inputContainer'>
+              <div className='formContent'>
                 <input type='text' />
-                <span>Spec Premium: $240,000</span>
+                <p>Spec Premium: $240,000</p>
               </div>
             </div>
           </div>
+          <hr />
           <div className='pricingContainer'>
-            <div className='buttonsGroup'>
-              <button>Standard Market Pricing</button>
-              <button>Good Deal</button>
-              <button>Custom</button>
+            <div className='formContent'>
+              <button className='blueBtn'>Standard Market Pricing</button>
+              <div className='formContentBtns'>
+                <button>Good Deal</button>
+                <button>Custom</button>
+              </div>
             </div>
-            <div className='inputContainer'>
+            <div className='formContent'>
               <input type='text' />
-              <span>Spec Premium: $240,000</span>
+              <p>Spec Premium: $240,000</p>
             </div>
           </div>
         </div>
-        <span>*PEPM = Per Employee Per Month</span>
-        <a href='#' className='simulateBtn'>
-          Simulate Aegle
-        </a>
+        <p className='perm'>*PEPM = Per Employee Per Month</p>
+        <div className='simulateBtnContainer'>
+          <a href='#' className='simulateBtn'>
+            Simulate Aegle
+          </a>
+        </div>
       </form>
     </section>
   )

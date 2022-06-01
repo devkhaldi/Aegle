@@ -29,12 +29,14 @@ body {
 }
 
 .homeCards {
-  background: #e5e5e5;
+  background: rgba(246, 246, 246, 1);
   padding: 0 11rem;
   padding-bottom: 6rem;
 }
 .simulatorCards {
   padding: 15rem;
+  margin-bottom: -30rem;
+  background: rgba(246, 246, 246, 1);
 }
 
 /* Headers */

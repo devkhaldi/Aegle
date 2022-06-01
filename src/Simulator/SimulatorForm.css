@@ -17,7 +17,7 @@
   width: 3.5rem;
   height: 3.5rem;
   left: -1.8rem;
-  top: 36%;
+  top: 29%;
   padding: 1rem;
   border-radius: 50%;
   z-index: 2;
@@ -42,7 +42,7 @@
 }
 
 .simulatorForm .box:nth-child(2) label {
-  flex: 2;
+  flex: 1;
   text-align: right;
   padding-right: 4rem;
   padding-top: 0.5rem;
@@ -59,18 +59,63 @@
   transform: translateY(0.4rem);
 }
 .simulatorForm .box:nth-child(2) .formContent {
-  flex: 2;
+  flex: 1;
   text-align: center;
   display: flex;
   align-items: center;
   padding-top: 0.2rem;
 }
 
-.simulatorForm .box:nth-child(2) hr {
+/* PERM box style */
+.simulatorForm .box:nth-child(3) {
+  display: flex;
+  padding: 2rem;
+}
+.simulatorForm .permContainer {
+  flex: 5;
+}
+
+.simulatorForm .pricingContainer {
+  flex: 2;
+}
+.simulatorForm .permContainer .formGroup {
+  display: flex;
+  margin: 3rem 0;
+}
+.simulatorForm .permContainer .formGroup label {
+  text-align: right;
+  flex: 1;
+  padding-right: 4rem;
+}
+.simulatorForm .permContainer .formGroup label p {
+  width: 60%;
+  display: inline-block;
+  transform: translateY(0.4rem);
+}
+.simulatorForm .permContainer .formGroup label img {
+  margin-left: 3rem;
+  padding-top: 0.6rem;
+}
+.simulatorForm .permContainer .formGroup .formContent {
+  flex: 1;
+  gap: 0.2rem;
+}
+.simulatorForm .formContentBtns {
+  margin-top: 0.4rem;
+}
+
+.simulatorForm .pricingContainer .formContent {
+  margin: 3rem 0;
+}
+.simulatorForm input {
   border: none;
-  width: 0.08rem;
-  background: rgba(0, 0, 0, 0.1);
-  margin: 2rem 4rem;
+  background: #f5f5f5;
+  border-radius: 0.5rem;
+  padding: 1rem 1rem;
+}
+.simulatorForm .formContent p {
+  margin-top: 0.5rem;
+  color: rgba(111, 111, 111, 0.5);
 }
 
 /* Simulator Form element style */
@@ -100,4 +145,35 @@
 }
 .simulatorForm .switch {
   margin-right: 2rem;
+}
+
+.simulatorForm hr {
+  border: none;
+  width: 0.08rem;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 2rem 4rem;
+}
+
+.simulatorForm p.perm {
+  color: rgba(111, 111, 111, 0.5);
+  margin-top: 1rem;
+}
+
+.simulatorForm .simulateBtnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.simulatorForm .simulateBtn {
+  color: white;
+  background: var(--orange);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem auto;
+}
+.simulatorForm input:focus {
+  border: none;
+  box-shadow: 0 0 0 #ddd;
 }

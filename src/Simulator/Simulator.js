@@ -3,6 +3,7 @@ import "./Simulator.css"
 import Navbar from "../components/Navbar"
 import SimulatorHero from "./SimulatorHero"
 import SimulatorForm from "./SimulatorForm"
+import Footer from "../components/Footer"
 
 const Simulator = () => {
   return (
@@ -12,6 +13,7 @@ const Simulator = () => {
       <div className='simulatorCards'>
         <SimulatorForm />
       </div>
+      <Footer className='lightFooter' />
     </React.Fragment>
   )
 }
